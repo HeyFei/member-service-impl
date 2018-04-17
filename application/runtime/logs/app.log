@@ -279,3 +279,2952 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1523956497.0748
     'REQUEST_TIME' => 1523956497
 ]
+2018-04-17 10:13:59 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:13:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960039.1373
+    'REQUEST_TIME' => 1523960039
+]
+2018-04-17 10:14:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960040.226
+    'REQUEST_TIME' => 1523960040
+]
+2018-04-17 10:14:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960040.6975
+    'REQUEST_TIME' => 1523960040
+]
+2018-04-17 10:14:00 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:00 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960040.9551
+    'REQUEST_TIME' => 1523960040
+]
+2018-04-17 10:14:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960041.1936
+    'REQUEST_TIME' => 1523960041
+]
+2018-04-17 10:14:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960041.4383
+    'REQUEST_TIME' => 1523960041
+]
+2018-04-17 10:14:01 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960041.7449
+    'REQUEST_TIME' => 1523960041
+]
+2018-04-17 10:14:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960042.1055
+    'REQUEST_TIME' => 1523960042
+]
+2018-04-17 10:14:02 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "site/index". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/index', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_REFERER' => 'http://test.yii.com/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960042.5682
+    'REQUEST_TIME' => 1523960042
+]
+2018-04-17 10:14:10 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:14:10 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55621'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960050.8861
+    'REQUEST_TIME' => 1523960050
+]
+2018-04-17 10:15:34 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:15:34 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55645'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960134.6939
+    'REQUEST_TIME' => 1523960134
+]
+2018-04-17 10:17:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:15 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960235.2417
+    'REQUEST_TIME' => 1523960235
+]
+2018-04-17 10:17:16 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:16 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960236.4031
+    'REQUEST_TIME' => 1523960236
+]
+2018-04-17 10:17:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960237.0933
+    'REQUEST_TIME' => 1523960237
+]
+2018-04-17 10:17:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960237.3316
+    'REQUEST_TIME' => 1523960237
+]
+2018-04-17 10:17:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960237.5397
+    'REQUEST_TIME' => 1523960237
+]
+2018-04-17 10:17:17 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960237.7382
+    'REQUEST_TIME' => 1523960237
+]
+2018-04-17 10:17:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960246.1897
+    'REQUEST_TIME' => 1523960246
+]
+2018-04-17 10:17:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960246.397
+    'REQUEST_TIME' => 1523960246
+]
+2018-04-17 10:17:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960246.572
+    'REQUEST_TIME' => 1523960246
+]
+2018-04-17 10:17:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960246.7592
+    'REQUEST_TIME' => 1523960246
+]
+2018-04-17 10:17:26 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "". in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#2 {main}
+2018-04-17 10:17:26 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55669'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960246.962
+    'REQUEST_TIME' => 1523960246
+]
+2018-04-17 10:18:45 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\assets\AppAsset' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:13
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:18:45 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55695'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960325.8026
+    'REQUEST_TIME' => 1523960325
+]
+2018-04-17 10:19:04 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: The directory does not exist: /home/foge/data/thrift-impl/member-service-impl/application/public/assets in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:213
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/BaseObject.php(109): yii\web\AssetManager->init()
+#1 [internal function]: yii\base\BaseObject->__construct(Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/di/Container.php(375): ReflectionClass->newInstanceArgs(Array)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/di/Container.php(156): yii\di\Container->build('yii\\web\\AssetMa...', Array, Array)
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/BaseYii.php(349): yii\di\Container->get('yii\\web\\AssetMa...', Array, Array)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/di/ServiceLocator.php(137): yii\BaseYii::createObject(Array)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(742): yii\di\ServiceLocator->get('assetManager', true)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(608): yii\base\Module->get('assetManager')
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(225): yii\base\Application->getAssetManager()
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(285): yii\web\View->getAssetManager()
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#12 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#13 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#16 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#17 [internal function]: app\controllers\SiteController->actionIndex()
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#19 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#20 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#21 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#22 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#23 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#24 {main}
+2018-04-17 10:19:04 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55695'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960344.1146
+    'REQUEST_TIME' => 1523960344
+]
+2018-04-17 10:21:29 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:21:29 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55733'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960489.8589
+    'REQUEST_TIME' => 1523960489
+]
+2018-04-17 10:22:12 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:22:12 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55733'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960532.7761
+    'REQUEST_TIME' => 1523960532
+]
+2018-04-17 10:22:13 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:22:13 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55733'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960533.2244
+    'REQUEST_TIME' => 1523960533
+]
+2018-04-17 10:22:13 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:22:13 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55733'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960533.5254
+    'REQUEST_TIME' => 1523960533
+]
+2018-04-17 10:22:13 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:22:13 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55733'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960533.8124
+    'REQUEST_TIME' => 1523960533
+]
+2018-04-17 10:22:14 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:22:14 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55733'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960534.1783
+    'REQUEST_TIME' => 1523960534
+]
+2018-04-17 10:25:06 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:25:06 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55778'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960706.1206
+    'REQUEST_TIME' => 1523960706
+]
+2018-04-17 10:25:06 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:25:06 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55778'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960706.4182
+    'REQUEST_TIME' => 1523960706
+]
+2018-04-17 10:25:06 [127.0.0.1][-][-][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:25:06 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55778'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960706.6877
+    'REQUEST_TIME' => 1523960706
+]
+2018-04-17 10:25:07 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:25:07 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55787'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960707.1135
+    'REQUEST_TIME' => 1523960707
+]
+2018-04-17 10:25:07 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:25:07 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55787'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960707.3917
+    'REQUEST_TIME' => 1523960707
+]
+2018-04-17 10:25:07 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: The file or directory to be published does not exist: /mnt/d/data/thrift-impl/member-service-impl/application/vendor/bower-asset/jquery/dist in /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php:456
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(185): yii\web\AssetManager->publish('/mnt/d/data/thr...', Array)
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(268): yii\web\AssetBundle->publish(Object(yii\web\AssetManager))
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetManager.php(239): yii\web\AssetManager->loadBundle('yii\\web\\JqueryA...', Array, true)
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(286): yii\web\AssetManager->getBundle('yii\\web\\JqueryA...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\JqueryA...', NULL)
+#5 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/View.php(291): yii\web\View->registerAssetBundle('yii\\web\\YiiAsse...', NULL)
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/AssetBundle.php(125): yii\web\View->registerAssetBundle('app\\assets\\AppA...')
+#7 /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php(13): yii\web\AssetBundle::register(Object(yii\web\View))
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require('/mnt/d/data/thr...')
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#11 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#12 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#13 [internal function]: app\controllers\SiteController->actionIndex()
+#14 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#15 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#16 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#17 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#18 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#20 {main}
+2018-04-17 10:25:07 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55787'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960707.6881
+    'REQUEST_TIME' => 1523960707
+]
+2018-04-17 10:26:22 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:21 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960781.969
+    'REQUEST_TIME' => 1523960781
+]
+2018-04-17 10:26:28 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:28 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960788.5354
+    'REQUEST_TIME' => 1523960788
+]
+2018-04-17 10:26:29 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:29 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960789.4484
+    'REQUEST_TIME' => 1523960789
+]
+2018-04-17 10:26:30 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:30 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960790.7521
+    'REQUEST_TIME' => 1523960790
+]
+2018-04-17 10:26:34 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:34 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960794.8474
+    'REQUEST_TIME' => 1523960794
+]
+2018-04-17 10:26:37 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:37 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960797.9194
+    'REQUEST_TIME' => 1523960797
+]
+2018-04-17 10:26:40 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][error][Error] Error: Class 'app\widgets\Alert' not found in /mnt/d/data/thrift-impl/member-service-impl/application/views/layouts/main.php:65
+Stack trace:
+#0 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(336): require()
+#1 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/View.php(254): yii\base\View->renderPhpFile('/mnt/d/data/thr...', Array)
+#2 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/mnt/d/data/thr...', Array, Object(app\controllers\SiteController))
+#3 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /mnt/d/data/thrift-impl/member-service-impl/application/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /mnt/d/data/thrift-impl/member-service-impl/vendor/yiisoft/yii2-app-basic/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /mnt/d/data/thrift-impl/member-service-impl/application/public/index.php(15): yii\base\Application->run()
+#12 {main}
+2018-04-17 10:26:40 [127.0.0.1][-][3vlo32h6fnkkl7984rak1g1bc6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '3vlo32h6fnkkl7984rak1g1bc6'
+    '_csrf' => '99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"-vfPc-8l7awl2XT34Ov86bITDJUBrwe_\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_COOKIE' => 'PHPSESSID=3vlo32h6fnkkl7984rak1g1bc6; _csrf=99f142bc52929459cc758af664f8877902df98bf53aee1815cff56269f12e170a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22-vfPc-8l7awl2XT34Ov86bITDJUBrwe_%22%3B%7D'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0'
+    'HTTP_HOST' => 'test.yii.com'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'test.yii.com'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55806'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.3'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/home/foge/data/thrift-impl/member-service-impl/application/public'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/index.php'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'SCRIPT_FILENAME' => '/home/foge/data/thrift-impl/member-service-impl/application/public/index.php'
+    'PATH_INFO' => ''
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1523960800.1044
+    'REQUEST_TIME' => 1523960800
+]
