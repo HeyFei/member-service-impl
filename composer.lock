@@ -1,0 +1,139 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d8e1638fbc84c9932a27ed7d1fdc73af",
+    "content-hash": "b87dde034f2a62e8caf4b973233cb55a",
+    "packages": [
+        {
+            "name": "apache/thrift",
+            "version": "0.11.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/apache/thrift.git",
+                "reference": "0d8da22dba430c379de04ff48e507e7277f4ea21"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://files.phpcomposer.com/files/apache/thrift/0d8da22dba430c379de04ff48e507e7277f4ea21.zip",
+                "reference": "0d8da22dba430c379de04ff48e507e7277f4ea21",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Thrift": "lib/php/lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Apache Thrift Developers",
+                    "email": "dev@thrift.apache.org",
+                    "homepage": "http://thrift.apache.org"
+                }
+            ],
+            "description": "Apache Thrift RPC system",
+            "homepage": "http://thrift.apache.org/",
+            "time": "2018-04-11 17:45:08"
+        },
+        {
+            "name": "service/member",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.33.cn:foge/member-service-intf.git",
+                "reference": "4bc343160667da80c50415a1d83d748b82a05601"
+            },
+            "require": {
+                "apache/thrift": "0.9.*|0.10.*|0.11.*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "php/"
+                ]
+            },
+            "time": "2018-04-16 12:22:58"
+        },
+        {
+            "name": "yiisoft/yii2-app-basic",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@gitlab.33.cn:foge/yii2_33cn.git",
+                "reference": "da39b291bb6bcd2d485c6b2a3bf978a6d3a2429e"
+            },
+            "type": "project",
+            "extra": {
+                "yii\\composer\\Installer::postCreateProject": {
+                    "setPermission": [
+                        {
+                            "runtime": "0777",
+                            "web/assets": "0777",
+                            "yii": "0755"
+                        }
+                    ]
+                },
+                "yii\\composer\\Installer::postInstall": {
+                    "generateCookieValidationKey": [
+                        "config/web.php"
+                    ]
+                }
+            },
+            "scripts": {
+                "post-install-cmd": [
+                    "yii\\composer\\Installer::postInstall"
+                ],
+                "post-create-project-cmd": [
+                    "yii\\composer\\Installer::postCreateProject",
+                    "yii\\composer\\Installer::postInstall"
+                ]
+            },
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Yii 2 Basic Project Template",
+            "homepage": "http://www.yiiframework.com/",
+            "keywords": [
+                "basic",
+                "framework",
+                "project template",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+                "forum": "http://www.yiiframework.com/forum/",
+                "wiki": "http://www.yiiframework.com/wiki/",
+                "irc": "irc://irc.freenode.net/yii",
+                "source": "https://github.com/yiisoft/yii2"
+            },
+            "time": "2018-04-17 08:31:17"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "yiisoft/yii2-app-basic": 20,
+        "service/member": 20,
+        "apache/thrift": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
