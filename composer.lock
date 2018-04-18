@@ -4,38 +4,40 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d8e1638fbc84c9932a27ed7d1fdc73af",
-    "content-hash": "b87dde034f2a62e8caf4b973233cb55a",
+    "hash": "13f089cf1fdfbb0f911cc667411967b1",
+    "content-hash": "d5a8cad9d6606227362344f520cc9945",
     "packages": [
         {
             "name": "apache/thrift",
-            "version": "0.11.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/apache/thrift.git",
-                "reference": "0d8da22dba430c379de04ff48e507e7277f4ea21"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://files.phpcomposer.com/files/apache/thrift/0d8da22dba430c379de04ff48e507e7277f4ea21.zip",
-                "reference": "0d8da22dba430c379de04ff48e507e7277f4ea21",
-                "shasum": ""
+                "url": "git@gitlab.33.cn:foge/thrift.git",
+                "reference": "10ea06fd574f07eff022bbcd0a2c208157170cc2"
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": "^5.5 || ^7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.8.36",
+                "squizlabs/php_codesniffer": "3.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.0.0-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Thrift": "lib/php/lib/"
+                "psr-4": {
+                    "Thrift\\": "lib/php/lib/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Test\\Thrift\\": "lib/php/test/"
+                }
+            },
             "license": [
                 "Apache-2.0"
             ],
@@ -48,7 +50,11 @@
             ],
             "description": "Apache Thrift RPC system",
             "homepage": "http://thrift.apache.org/",
-            "time": "2018-04-11 17:45:08"
+            "support": {
+                "email": "dev@thrift.apache.org",
+                "issues": "https://issues.apache.org/jira/browse/THRIFT"
+            },
+            "time": "2018-04-17 08:05:08"
         },
         {
             "name": "service/member",
@@ -56,18 +62,10 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.33.cn:foge/member-service-intf.git",
-                "reference": "4bc343160667da80c50415a1d83d748b82a05601"
-            },
-            "require": {
-                "apache/thrift": "0.9.*|0.10.*|0.11.*"
+                "reference": "e8b6938788c3c3a3c1be8376d3dd8e6b8201fc7d"
             },
             "type": "library",
-            "autoload": {
-                "classmap": [
-                    "php/"
-                ]
-            },
-            "time": "2018-04-16 12:22:58"
+            "time": "2018-04-18 07:07:50"
         },
         {
             "name": "yiisoft/yii2-app-basic",
@@ -75,7 +73,7 @@
             "source": {
                 "type": "git",
                 "url": "git@gitlab.33.cn:foge/yii2_33cn.git",
-                "reference": "da39b291bb6bcd2d485c6b2a3bf978a6d3a2429e"
+                "reference": "46452a7a5c358ab83e75f28a40e726cdfc798e27"
             },
             "type": "project",
             "extra": {
@@ -121,7 +119,7 @@
                 "irc": "irc://irc.freenode.net/yii",
                 "source": "https://github.com/yiisoft/yii2"
             },
-            "time": "2018-04-17 08:31:17"
+            "time": "2018-04-17 08:37:30"
         }
     ],
     "packages-dev": [],

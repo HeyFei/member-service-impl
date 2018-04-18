@@ -9,6 +9,11 @@ use yii\web\Response;
 use yii\filters\VerbFilter;
 use app\models\LoginForm;
 use app\models\ContactForm;
+use app\classes\member\MemberServiceImpl;
+use service\member\constant\ErrorCode;
+use app\classes\member\utils\ResultBuilder;
+use \service\member\object\base\BaseForList;
+use service\member\object\base\ListBaseResult;
 
 class SiteController extends Controller
 {
@@ -61,7 +66,15 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        ResultBuilder::setResultClass(ListBaseResult::class);
+        (new MemberServiceImpl())->getSimpleInfoListByIds([]);
+        $base_for_list = new BaseForList();
+        $base_for_list->id = 1;
+        $base_for_list->real_name = '张三';
+        $data = [$base_for_list];
+        $ret = ResultBuilder::buildResult(ErrorCode::SUCCESS, $base_for_list);
+        var_dump($ret);
+//        return $this->render('index');
     }
 
     /**
