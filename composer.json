@@ -1,31 +1,30 @@
 {
-    "require": {
-      "yiisoft/yii2-app-basic": "@dev",
-      "service/member": "@dev",
-      "apache/thrift": "@dev"
+  "require": {
+    "yiisoft/yii2-app-basic": "@dev",
+    "service/member": "@dev",
+    "thrift_33cn": "@dev"
+  },
+  "require-dev": {
+    "yiisoft/yii2-app-basic": "@dev",
+    "service/member": "@dev",
+    "thrift_33cn": "@dev"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
     },
-    "require-dev": {
-      "yiisoft/yii2-app-basic": "@dev",
-      "service/member": "@dev",
-      "apache/thrift": "@dev"
+    "yiisoft/yii2-app-basic": {
+      "type": "git",
+      "url": "git@gitlab.33.cn:foge/yii2_33cn.git"
     },
-    "repositories": {
-      "packagist": {
-        "type": "composer",
-        "url": "https://packagist.phpcomposer.com"
-      },
-      "yiisoft/yii2-app-basic": {
-        "type": "git",
-        "url": "git@gitlab.33.cn:foge/yii2_33cn.git"
-      },
-      "service/member":{
-        "type": "git",
-        "url": "git@gitlab.33.cn:foge/member-service-intf.git"
-      },
-      "apache/thrift":{
-        "type": "git",
-        "url": "git@gitlab.33.cn:foge/thrift.git"
-      }
+    "service/member": {
+      "type": "git",
+      "url": "git@gitlab.33.cn:foge/member-service-intf.git"
+    },
+    "thrift_33cn": {
+      "type": "git",
+      "url": "git@gitlab.33.cn:foge/thrift_33cn.git"
     }
   }
-  
+}

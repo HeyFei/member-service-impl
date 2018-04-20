@@ -2,140 +2,48 @@
 
 namespace app\controllers;
 
+use Thrift\Protocol\TSimpleJSONProtocol;
 use Yii;
-use yii\filters\AccessControl;
 use yii\web\Controller;
-use yii\web\Response;
-use yii\filters\VerbFilter;
-use app\models\LoginForm;
-use app\models\ContactForm;
-use app\classes\member\MemberServiceImpl;
-use service\member\constant\ErrorCode;
-use app\classes\member\utils\ResultBuilder;
-use \service\member\object\base\BaseForList;
-use service\member\object\base\ListBaseResult;
+use Thrift\ClassLoader\ThriftClassLoader;
+use Thrift\Protocol\TBinaryProtocol;
+use Thrift\Protocol\TJSONProtocol;
+use Thrift\Transport\TPhpStream;
+use Thrift\Transport\TBufferedTransport;
 
 class SiteController extends Controller
 {
-    /**
-     * {@inheritdoc}
-     */
-    public function behaviors()
-    {
-        return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'only' => ['logout'],
-                'rules' => [
-                    [
-                        'actions' => ['logout'],
-                        'allow' => true,
-                        'roles' => ['@'],
-                    ],
-                ],
-            ],
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'logout' => ['post'],
-                ],
-            ],
-        ];
-    }
-
-    /**
-     * {@inheritdoc}
-     */
-    public function actions()
-    {
-        return [
-            'error' => [
-                'class' => 'yii\web\ErrorAction',
-            ],
-            'captcha' => [
-                'class' => 'yii\captcha\CaptchaAction',
-                'fixedVerifyCode' => YII_ENV_TEST ? 'testme' : null,
-            ],
-        ];
-    }
-
-    /**
-     * Displays homepage.
-     *
-     * @return string
-     */
     public function actionIndex()
     {
-        ResultBuilder::setResultClass(ListBaseResult::class);
-        (new MemberServiceImpl())->getSimpleInfoListByIds([]);
-        $base_for_list = new BaseForList();
-        $base_for_list->id = 1;
-        $base_for_list->real_name = '张三';
-        $data = [$base_for_list];
-        $ret = ResultBuilder::buildResult(ErrorCode::SUCCESS, $base_for_list);
-        var_dump($ret);
-//        return $this->render('index');
-    }
-
-    /**
-     * Login action.
-     *
-     * @return Response|string
-     */
-    public function actionLogin()
-    {
-        if (!Yii::$app->user->isGuest) {
-            return $this->goHome();
+        $url = Yii::$app->request->url;
+        $arr = explode('/', trim($url, '/'));
+        $project_name = $arr[0];
+        $server_name = $arr[1];
+        $class_name = $server_name . 'Impl';
+        $class_name = 'app\\classes\\member\\' . $class_name;
+        $loader = new ThriftClassLoader();
+        $server_member_path = YII_USER_APP . 'vendor/service/' . $project_name . '/php/service/' . $project_name . '/';
+        $loader->registerDefinition('service\\member\\', $server_member_path);
+        $handler = new $class_name();
+        $processor_class = '\\service\\' . $project_name . '\\' . $server_name . 'Processor';
+        $processor = new $processor_class($handler);
+        $transport = new TBufferedTransport(new TPhpStream(TPhpStream::MODE_R | TPhpStream::MODE_W));
+        $content_type = $_SERVER['HTTP_CONTENT_TYPE'];
+        list($content_type) = explode(";", trim($content_type));
+        if ('application/json' === $content_type) {
+            $protocol = new TJSONProtocol($transport);
+        } elseif ('application/simple_json' === $content_type) {
+            $protocol = new TSimpleJSONProtocol($transport);
+        } else {
+            $protocol = new TBinaryProtocol($transport, true, true);
         }
-
-        $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
-            return $this->goBack();
-        }
-
-        $model->password = '';
-        return $this->render('login', [
-            'model' => $model,
-        ]);
+        $transport->open();
+        $processor->process($protocol, $protocol);
+        $transport->close();
     }
 
-    /**
-     * Logout action.
-     *
-     * @return Response
-     */
-    public function actionLogout()
+    public function actionError()
     {
-        Yii::$app->user->logout();
-
-        return $this->goHome();
-    }
-
-    /**
-     * Displays contact page.
-     *
-     * @return Response|string
-     */
-    public function actionContact()
-    {
-        $model = new ContactForm();
-        if ($model->load(Yii::$app->request->post()) && $model->contact(Yii::$app->params['adminEmail'])) {
-            Yii::$app->session->setFlash('contactFormSubmitted');
-
-            return $this->refresh();
-        }
-        return $this->render('contact', [
-            'model' => $model,
-        ]);
-    }
-
-    /**
-     * Displays about page.
-     *
-     * @return string
-     */
-    public function actionAbout()
-    {
-        return $this->render('about');
+        return 'forbid access by get method';
     }
 }
